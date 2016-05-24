@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    >
+    <EditText
+    android:layout_margin="15dp"
+    android:background="@drawable/comment_edit"
+    android:id="@+id/comment_dialog_edit"
+    android:layout_width="match_parent"
+    android:layout_height="100dp "
+    />
+    <Button
+        android:id="@+id/comment_dialog_btn"
+        android:layout_below="@+id/comment_dialog_edit"
+        android:layout_alignRight="@+id/comment_dialog_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="发布评论"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:textSize="10dp"
+        android:layout_marginBottom="15dp"
+        />
+
+</RelativeLayout>

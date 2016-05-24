@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/uparticle_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭"
+            android:textColor="@color/lightsalmon"
+            android:background="#00000000"
+            android:textSize="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            >
+            <Button
+                android:id="@+id/type_secret"
+                android:text="私密文章"
+                android:background="@drawable/write_type"
+                android:layout_width="65dp"
+                android:textColor="@color/gray"
+                android:textSize="10dp"
+                android:layout_height="35dp" />
+            <Button
+                android:id="@+id/type_open"
+                android:text="公开文章"
+                android:textColor="@color/white"
+                android:background="@drawable/write_type_bac"
+                android:layout_width="65dp"
+                android:textSize="10dp"
+                android:layout_height="35dp"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/uparticle_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="发布"
+            android:background="#00000000"
+            android:textColor="@color/lightsalmon"
+            android:textSize="20dp"
+
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+        <EditText
+            android:id="@+id/uparticle_edit_titile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入标题"
+            android:textSize="30dp"
+            android:textColor="@color/gray"
+            />
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/uparticle_edit_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:hint="请输入正文"
+            android:textSize="15dp"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+</LinearLayout>

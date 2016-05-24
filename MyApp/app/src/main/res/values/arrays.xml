@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="top_tab_title">
+        <item>热门</item>
+        <item>新上榜</item>
+        <item>日报</item>
+        <item>图书</item>
+        <item>随意看</item>
+         </string-array>
+
+    <string-array name="bottom_tab_text">
+        <item>发现</item>
+        <item>关注</item>
+        <item>消息</item>
+        <item>我的</item>
+    </string-array>
+</resources>
